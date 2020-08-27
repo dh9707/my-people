@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    background-color: #22a6b3;
+    height: 100%;
+}
+#users {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 18rem);
+    max-width: 900px;
+    justify-content: center;
+    grid-gap: 10px;
+    margin: auto;
+}
+.user {
+    display: grid;
+    height: 80px;
+    padding: 10px;
+    background-color: #badc58;
+    border-radius: 8px;
+}
+.user:hover{
+    background-color: #6ab04c;
+    transition-duration: 0.5s;
+}
+.email {
+    color: #2238b3;
+}
